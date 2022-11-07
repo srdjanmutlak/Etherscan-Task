@@ -303,7 +303,7 @@ describe ("Register Etherscan - testing positive and negative test cases POM", (
     });
 
 	it('tests a positive test case - Terms and conditions link and Unsubscribe link are up and live and lead to adequate addresses ', () => {
-        general.getTermsAndCondLink.then((link) => {
+        general.termsAndCondLink.then((link) => {
 
         cy.request(link.prop('href'))
         .its('status')
@@ -311,7 +311,7 @@ describe ("Register Etherscan - testing positive and negative test cases POM", (
            // address is located in the selector in page objects
        })
 		
-	general.getUnsubscribeLink.then((link) => {
+	general.unsubscribeLink.then((link) => {
 
         cy.request(link.prop('href'))
         .its('status')
