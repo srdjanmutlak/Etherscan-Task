@@ -52,11 +52,11 @@ class General {
         return cy.get("div[class='alert alert-info']")
     }
 	
-	get getTermsAndCondLink(){
+	get termsAndCondLink(){
         return cy.get("a[href$='/terms']")
     }
 	
-	get getUnsubscribeLink(){
+	get unsubscribeLink(){
         return cy.get("a[href='https://info.etherscan.com/how-to-subscribe-unsubscribe-newsletter/']")
     }
 
