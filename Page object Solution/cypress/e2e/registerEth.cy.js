@@ -302,7 +302,25 @@ describe ("Register Etherscan - testing positive and negative test cases POM", (
         .and('have.text' , 'Password too short. Minimum of 6 characters required'))
     });
 
+	it('tests a positive test case - Terms and conditions link and Unsubscribe link are up and live and lead to adequate addresses ', () => {
+        general.getTermsAndCondLink.then((link) => {
 
+        cy.request(link.prop('href'))
+        .its('status')
+        .should('eq', 200)
+           // address is located in the selector in page objects
+       })
+		
+	general.getUnsubscribeLink.then((link) => {
+
+        cy.request(link.prop('href'))
+        .its('status')
+        .should('eq', 200)
+           // address is located in the selector in page objects
+       })
+	
+	
+    });
 
 
 
