@@ -1,5 +1,5 @@
 # Etherscan-Task
-Testing registration form. Test scenario done in TestLink, automation done in Cypress - 2 solutions, one in Page Object, second solution done by using custom made commands and JS code for simplification.
+Testing registration form. Test scenario done in TestLink, automation done in Cypress - 2 solutions, one by using Page Object Model, second solution done by using custom made commands and JS code for simplification.
 
 *Two solutions are done on two different devices with two different Cypress versions.
 
