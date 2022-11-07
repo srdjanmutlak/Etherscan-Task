@@ -7,5 +7,5 @@ Testing registration form. Test scenario done in TestLink, automation done in Cy
 Notes and suggestions on potential automation process are in TestLink document. Download and read it, because Git might not support some font changes that were done recently.
 
 
-//  take notice: solveGoogleReCAPTCHA only exists in Custom commands solution. Usage of realHover also exists only in Custom commands solution.
+//  take notice: solveGoogleReCAPTCHA only exists in Custom commands solution. Usage of realHover also exists only in Custom commands solution. Login test is the last test in testingRegisterPage.
 
