@@ -9,15 +9,3 @@ Notes and suggestions on potential automation process are in TestLink document. 
 
 //  take notice: solveGoogleReCAPTCHA only exists in Custom commands solution. Usage of realHover also exists only in Custom commands solution.
 
-Cypress.Commands.add('solveGoogleReCAPTCHA', () => {
-    // Wait until the iframe (Google reCAPTCHA) is totally loaded
-    cy.wait(500);
-    cy.get('.g-recaptcha *> iframe')
-      .then($iframe => {
-        const $body = $iframe.contents().find('body');
-        cy.wrap($body)
-          .find('.recaptcha-checkbox-border')
-          .should('be.visible')
-          .click();
-      });
-  });
