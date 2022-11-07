@@ -51,6 +51,14 @@ class General {
 	get registrationHasBeenSubmittedMessage(){
         return cy.get("div[class='alert alert-info']")
     }
+	
+	get getTermsAndCondLink(){
+        return cy.get("a[href$='/terms']")
+    }
+	
+	get getUnsubscribeLink(){
+        return cy.get("a[href='https://info.etherscan.com/how-to-subscribe-unsubscribe-newsletter/']")
+    }
 
 }
 
