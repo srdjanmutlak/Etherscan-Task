@@ -4,7 +4,7 @@ Testing registration form. Test scenario done in TestLink, automation done in Cy
 *Two solutions are done on two different devices with two different Cypress versions.
 
 
-Notes and suggestions on potential automation process are in TestLink document. Download and read it, because Git might not support some changes that were being made in it.
+Notes and suggestions on potential automation process are in TestLink document. Download and read it, because Git might not support some font changes that were done recently.
 
 
 //  take notice: solveGoogleReCAPTCHA only exists in Custom commands solution. Usage of realHover also exists only in Custom commands solution.
