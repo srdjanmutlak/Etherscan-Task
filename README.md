@@ -43,4 +43,4 @@ We use this in commands, and later on in the test as:
 
 cy.getButtonOrLinkByText("Sign Out").should('be.visible')
 ***
-Several behaviors of the app are conflicting as you will see in tests. I've automated and documented both failures and the ones with afterward warning messages as failed tests and as passed functional tests.
+Several behaviors of the app are conflicting as you will see in automation process and in manual execution notes.
